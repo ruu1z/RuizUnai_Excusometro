@@ -3,25 +3,24 @@
 body {
     margin: 0;
     background-color: #0D0221;
-     font-family: "Roboto Mono", monospace;
+    color: #FFFFFF;
+    font-family: "Roboto Mono", monospace;
+    line-height: 1.6;
 }
 
 h1 {
     color: #008DBD;
     font-size: 3em;
+    margin: 10px 0;
 }
 
-h2{
+h2 {
     font-size: 1.5rem;
+    color: #FFFFFF;
 }
 
-p{
+p {
     line-height: 1.5;
-}
-
-header p{
-    font-size: 1.1rem;
-    font-weight: bold;
 }
 
 header {
@@ -31,22 +30,68 @@ header {
     color: aliceblue;
 }
 
+header p {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+header p.instituto {
+    letter-spacing: 2px;
+    color: #008DBD;
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 16px;
+    text-align: center;
+}
+
+nav a {
+    color: #4b3bb2;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: 700;
+}
+
+nav a:hover {
+    color: #008DBD;
+}
+
 main {
-    padding: 60px;
+    max-width: 900px;
+    padding: 40px 20px;
     margin: auto;
 }
 
-#QueEs{
-    background-color: aquamarine;
-}
-
-section{
+section {
     background-color: #26408B;
-    padding: 20px;
-    margin-bottom: 10px;
+    padding: 24px;
+    margin-bottom: 20px;
+    border-radius: 8px;
 }
 
-footer{
+.excusa h3 {
+    color: #008DBD;
+    margin-bottom: 4px;
+}
+
+.excusa p {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+#QueEs {
+    background-color: #1e3370;
+}
+
+#estado .estado-operativo {
+    color: #89e867;
+    font-weight: bold;
+}
+
+footer {
     padding: 20px;
     text-align: center;
+    color: #FFFFFF;
 }

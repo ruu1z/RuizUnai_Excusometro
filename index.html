@@ -1,62 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Sistema experimental para las excusas">
     <meta name="keywords" content="excusas, detector, estudiantes, sistema, excusometro">
+    <title>RuizUnai_Excusometro</title>
     <link rel="shortcut icon" href="img/android-brands-solid-full.svg" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
-    <title>RuizUnai_Excusometro</title>
 </head>
 
 <body>
+
     <header>
+        <p class="instituto">ANÁLISIS DE EXCUSAS</p>
         <h1>Excusómetro chachipiruli</h1>
         <p>Excusas que nunca pongo porque no me gustan</p>
+        <p>Cada excusa es un mundo nuevo</p>
     </header>
 
     <nav>
-        <a href="#">Detector</a>
-        <a href="#">Tipos Excusa</a>
-        <a href="#">Seguimiento</a>
+        <a href="#Detector">Detector</a>
+        <a href="#QueEs">¿Qué hacemos?</a>
+        <a href="#Funciona">¿Funciona?</a>
+        <a href="#estado">Estado</a>
     </nav>
 
     <main>
-        <section>
+
+        <section id="Detector">
             <h2>Excusas que excusan mucho</h2>
-            <p style="color: #FFFFFF"> para crear excusas escuseras</p>
+            <p>Todas las excusas que se detectan</p>
+
+            <article class="excusa">
+                <h3>Estaba en el médico</h3>
+                <p>Excusa con justificación médica, pero dudosa</p>
+            </article>
+
+            <article class="excusa">
+                <h3>No lo dijiste en clase</h3>
+                <p>Hace que la responsabilidad sea del docente.</p>
+            </article>
+
+            <article class="excusa">
+                <h3>El perro tenía hambre</h3>
+                <p>Como la típica de "El perro se los ha comido", pero con una pequeña variación.</p>
+            </article>
         </section>
 
-        <section>
-            <section class="como">
-            <h2 id="QueEs">¿Que es esto?</h2>
-            <p style="color: #FFFFFF"> Un excusometro para los estudiantes</p>
+        <section id="QueEs">
+            <h2>¿Qué hacemos?</h2>
+            <p>Un excusómetro para los estudiantes</p>
+
             <ol>
                 <li>Vemos si la excusa sirve</li>
-                <li>Buscamos si es valida o no</li>
+                <li>Buscamos si es válida o no</li>
                 <li>Comprobamos si nos sirve</li>
                 <li>Consultamos con el resto de profesorado</li>
             </ol>
         </section>
 
-        <section>
-            <h2>Estado del sistema</h2>
-            <p style="color: #FFFFFF;">Sistema preparado para las excusas</p>
-            <ul>
-                <li>No tenía internet</li>
-                <li>El gato lo a roto</li>
-                <li>No me funcionaba la contraseña</li>
-                <li>Lo cambiaste en clase</li>
-                <li>No dijiste que era para hoy</li>
-            </ul>
+        <section id="Funciona">
+            <h2>¿Funciona?</h2>
+            <p>Cómo el sistema funciona</p>
+            <p>No siempre se garantiza el funcionamiento y aprobación de la excusa, ya que pasa por todo el equipo de profesores.</p>
         </section>
+
+        <section id="estado">
+            <h2>Estado del sistema</h2>
+            <p class="estado-operativo">Operativo · Esperando para encontrar excusas</p>
+            <p>Está en fase de pruebas, no se garantiza su funcionamiento correctamente.</p>
+        </section>
+
     </main>
 
     <footer>
-        <p>FUAB, preparado para las excusas académicas</p>
+        <p>FUAB, preparado para las excusas académicas · Sistema activo desde 2026.</p>
     </footer>
+
 </body>
 
 </html>
